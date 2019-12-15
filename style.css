@@ -1,0 +1,121 @@
+body {
+  margin: 0 auto;
+  max-width: 1441px;
+  max-height: 1024px;
+}
+img {
+  cursor: pointer;
+}
+.header {
+  display: flex;
+  align-items: center;
+  -webkit-box-shadow: 0px 5px 7px 0px rgba(84, 84, 84, 1);
+  -moz-box-shadow: 0px 5px 7px 0px rgba(84, 84, 84, 1);
+  box-shadow: 0px 5px 7px 0px rgba(84, 84, 84, 1);
+  position: relative;
+  height: 48px;
+}
+.header__menu {
+  margin-left: 19px;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+.header__CodeJam {
+  margin-left: 60px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  font-family: Arial;
+  font-weight: bold;
+}
+.contentFlex {
+  display: flex;
+}
+.contentBlock {
+  margin-top: 50px;
+}
+.instruments {
+  -webkit-box-shadow: 0px 3px 5px 0px rgba(84, 84, 84, 0.75);
+  -moz-box-shadow: 0px 3px 5px 0px rgba(84, 84, 84, 0.75);
+  box-shadow: 0px 3px 5px 0px rgba(84, 84, 84, 0.75);
+  width: 228px;
+  height: 246px;
+}
+button {
+  background: none;
+  border: none;
+  display: flex;
+  padding: 16px;
+  width: 100%;
+}
+.instruments__text {
+  margin-left: 35px;
+}
+.instruments__span {
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 24px;
+}
+.colors {
+  -webkit-box-shadow: 0px 3px 5px 0px rgba(84, 84, 84, 0.75);
+  -moz-box-shadow: 0px 3px 5px 0px rgba(84, 84, 84, 0.75);
+  box-shadow: 0px 3px 5px 0px rgba(84, 84, 84, 0.75);
+  width: 228px;
+  height: 246px;
+  align-items: center;
+  margin-top: 70px;
+}
+.colors__text {
+  margin-left: 18px;
+  cursor: pointer;
+}
+.currentColor__circle {
+  background: #c4c4c4;
+  border: 1px solid #000000;
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+.prevColor__circle {
+  background: #41f795;
+  border: 1px solid #000000;
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+.redColor__circle {
+  background: #f74141;
+  border: 1px solid #000000;
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+.blueColor__circle {
+  background: #41b6f7;
+  border: 1px solid #000000;
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+.canvasContent {
+  margin: 70px 220px 25px 130px;
+  border-radius: 8px;
+}
+#canvas {
+  width: 512px;
+  height: 512px;
+  border-radius: 8px;
+}
+.sizes {
+  margin-top: 50px;
+  -webkit-box-shadow: 0px 3px 5px 0px rgba(84, 84, 84, 0.75);
+  -moz-box-shadow: 0px 3px 5px 0px rgba(84, 84, 84, 0.75);
+  box-shadow: 0px 3px 5px 0px rgba(84, 84, 84, 0.75);
+  width: 228px;
+  height: 246px;
+}
