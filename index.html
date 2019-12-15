@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>CodeJam Pallete</title>
+</head>
+
+<body>
+    <header class="header">
+        <img class="header__menu" src="data/nav_icon.png" alt="nav_icon">
+        <h1 class="header__CodeJam">CodeJam - Pallete</h1>
+    </header>
+    <main class="contentFlex">
+        <div class="contentBlock">
+            <div class="instruments">
+                <button class="actions__paintBucket">
+                    <img class="actionsIcon" src="data/paintBucket.png" alt="paintBucket">
+                    <div class="instruments__text"><span class="instruments__span">Paint bucket</span></div>
+                </button>
+                <button class="actions__chooseColor">
+                    <img class="actionsIcon" src="data/chooseColor.png" alt="chooseColor">
+                    <div class="instruments__text"><span class="instruments__span">Choose color</span></div>
+                </button>
+                <div class="actions__divider">
+                    <img class="dividerLine" src="data/line.png" alt="line">
+                </div>
+                <button class="actions__move">
+                    <img class="actionsIcon" src="data/move.png" alt="move">
+                    <div class="instruments__text"><span class="instruments__span">Move</span></div>
+                </button>
+                <button class="actions__transform">
+                    <img class="actionsIcon" src="data/transform.png" alt="transform">
+                    <div class="instruments__text"><span class="instruments__span">Transform</span></div>
+                </button>
+            </div>
+            <div class="colors">
+                <button class="colors__currentColor">
+                    <div class="currentColor__circle"></div>
+                    <div class="colors__text"><span class="instruments__span">Current color</span></div>
+                </button>
+                <button class="colors__prevColor">
+                    <div class="prevColor__circle"></div>
+                    <div class="colors__text"><span class="instruments__span">Prev color</span></div>
+                </button>
+                <div class="actions__divider">
+                    <img class="dividerLine" src="data/line.png" alt="line">
+                </div>
+                <button class="colors__redColor">
+                    <div class="redColor__circle"></div>
+                    <div class="colors__text"><span class="instruments__span">Red</span></div>
+                </button>
+                <button class="colors__blueColor">
+                    <div class="blueColor__circle"></div>
+                    <div class="colors__text"><span class="instruments__span">Blue</span></div>
+                </button>
+            </div>
+        </div>
+        <div class="canvasContent">
+            <canvas id="canvas" width="512px" height="512px"></canvas>
+        </div>
+        <div class="sizes">
+            <button class="sizes__small" onclick="drawCanvas(canvas4x4, 128, 'hex')">
+                <div class="instruments__text"><span class="instruments__span">4x4</span></div>
+            </button>
+            <button class="sizes__medium" onclick="drawCanvas(canvas32x32, 16, 'rgba')">
+                <div class="instruments__text"><span class="instruments__span">32x32</span></div>
+            </button>
+            <button class="sizes__large" onclick="RsImg()">
+                <div class="instruments__text"><span class="instruments__span">256x256</span></div>
+            </button>
+        </div>
+    </main>
+    <script type="text/javascript" src="4x4.js" defer></script>
+    <script type="text/javascript" src="32x32.js" defer></script>
+    <script type="text/javascript" src="script.js" defer></script>
+</body>
+</html>
